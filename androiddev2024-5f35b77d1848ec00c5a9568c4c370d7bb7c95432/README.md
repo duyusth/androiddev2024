@@ -10,7 +10,8 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: Nguyễn Đăng Duy
-* ID: BA12-062
-* Group ID: *15*
-* Project Name: *Online news reader *
+* Name: Truong Quang Nam
+* ID: BA12-134
+
+* Group ID: *Your Group ID here*
+* Project Name: *Your Project Name here*
