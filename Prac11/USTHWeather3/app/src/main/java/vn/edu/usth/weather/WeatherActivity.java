@@ -15,7 +15,6 @@ public class WeatherActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_weather);
         mp = MediaPlayer.create(this,R.raw.wam_music);
         mp.start();
@@ -34,18 +33,6 @@ public class WeatherActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onStart()
-    {
-        super.onStart();
-        Log.i(TAG, "Start");
-    }
-
-    @Override
-    protected void onResume()
-    {
-        super.onResume();
-        Log.i(TAG, "Resume");
-    }
 
     @Override
     protected void onPause()
