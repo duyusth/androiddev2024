@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_forecast.xml">
+        <config>
+          <theme>@style/Theme.USTHWeather</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9fcc383-deb9-4080-835f-788e09b48c36" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/androidTest/java/vn/edu/usth/weather/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/java/vn/edu/usth/weather/WeatherActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/java/vn/edu/usth/weather/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/java/vn/edu/usth/weather/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/java/vn/edu/usth/weather/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/app/src/test/java/vn/edu/usth/weather/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac1/USTHWeather/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/.idea/render.experimental.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/androidTest/java/vn/edu/usth/weather/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/java/vn/edu/usth/weather/ForecastFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/java/vn/edu/usth/weather/HomeFragmentPagerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/java/vn/edu/usth/weather/WeatherActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/java/vn/edu/usth/weather/WeatherAndForecastFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/java/vn/edu/usth/weather/WeatherFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/java/vn/edu/usth/weather/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/java/vn/edu/usth/weather/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/java/vn/edu/usth/weather/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable-nodpi/th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/_380510_200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/ai_day.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/chat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/frame.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/girl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/png_clipart_rain_weather_forecasting_overcast_cloud_cloudy_love_cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/rain_computer_icons_symbol_weather_rainy_day.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/sad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/scatterthunder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/thunderstorm_icon_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/weather_91.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/drawable/wow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/layout/activity_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/layout/fragment_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/layout/fragment_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/layout/fragment_weather_and_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/values-vi/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/app/src/test/java/vn/edu/usth/weather/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac10/USTHWeather3/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Prac11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/render.experimental.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/vn/edu/usth/weather/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/vn/edu/usth/weather/ForecastFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/vn/edu/usth/weather/HomeFragmentPagerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/vn/edu/usth/weather/WeatherActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/vn/edu/usth/weather/WeatherAndForecastFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/vn/edu/usth/weather/WeatherFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/vn/edu/usth/weather/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/vn/edu/usth/weather/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/vn/edu/usth/weather/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/_380510_200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ai_day.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/chat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/frame.9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/girl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/png_clipart_rain_weather_forecasting_overcast_cloud_cloudy_love_cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/rain_computer_icons_symbol_weather_rainy_day.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/scatterthunder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/thunderstorm_icon_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/weather_91.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/wow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_weather_and_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/wam_music.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-vi/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/vn/edu/usth/weather/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/.idea/deploymentTargetDropDown.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/androidTest/java/vn/edu/usth/weatheractivity/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/java/vn/edu/usth/weatheractivity/WeatherActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/layout/activity_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/app/src/test/java/vn/edu/usth/weatheractivity/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac2/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/androidTest/java/vn/edu/usth/weather/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/java/vn/edu/usth/weather/ForecastFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/java/vn/edu/usth/weather/WeatherActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/drawable/clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/drawable/clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/drawable/drizzle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/drawable/humidity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/drawable/mist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/drawable/rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/layout/fragment_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/app/src/test/java/vn/edu/usth/weather/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac3/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/androidTest/java/vn/edu/usth/weather/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/java/vn/edu/usth/weather/ForecastFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/java/vn/edu/usth/weather/WeatherActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/layout/fragment_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/app/src/test/java/vn/edu/usth/weather/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac4/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/androidTest/java/vn/edu/usth/weather/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/java/vn/edu/usth/weather/ForecastFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/java/vn/edu/usth/weather/WeatherActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/java/vn/edu/usth/weather/WeatherAndForecastFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/java/vn/edu/usth/weather/WeatherFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/java/vn/edu/usth/weather/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/java/vn/edu/usth/weather/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/java/vn/edu/usth/weather/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/drawable/icons8clouds100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/drawable/icons8heavyrain100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/drawable/icons8partlycloudyday100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/drawable/icons8rain96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/drawable/icons8snow100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/drawable/icons8storm100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/drawable/icons8sun96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/layout/activity_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/layout/fragment_forecast2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/layout/fragment_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/layout/fragment_weather_and_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/app/src/test/java/vn/edu/usth/weather/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac5/USTHWeather/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/androidTest/java/vn/edu/usth/weather/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/java/vn/edu/usth/weather/ForecastFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/java/vn/edu/usth/weather/WeatherActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/java/vn/edu/usth/weather/WeatherFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/java/vn/edu/usth/weather/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/java/vn/edu/usth/weather/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/java/vn/edu/usth/weather/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/drawable/icons8clouds100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/drawable/icons8heavyrain100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/drawable/icons8partlycloudyday100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/drawable/icons8rain96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/drawable/icons8snow100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/drawable/icons8storm100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/drawable/icons8sun96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/layout/activity_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/layout/fragment_forecast2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/layout/fragment_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/app/src/test/java/vn/edu/usth/weather/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac6/USTHWeather/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/androidTest/java/vn/edu/usth/weather/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/java/vn/edu/usth/weather/ForecastFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/java/vn/edu/usth/weather/WeatherActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/java/vn/edu/usth/weather/WeatherAndForecastFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/java/vn/edu/usth/weather/WeatherFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/java/vn/edu/usth/weather/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/java/vn/edu/usth/weather/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/java/vn/edu/usth/weather/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/drawable/icons8clouds100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/drawable/icons8heavyrain100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/drawable/icons8partlycloudyday100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/drawable/icons8rain96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/drawable/icons8snow100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/drawable/icons8storm100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/drawable/icons8sun96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/layout/activity_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/layout/fragment_forecast2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/layout/fragment_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/layout/fragment_weather_and_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/app/src/test/java/vn/edu/usth/weather/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac7/USTHWeather/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/androidTest/java/vn/edu/usth/weather/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/java/vn/edu/usth/weather/ForecastFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/java/vn/edu/usth/weather/WeatherActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/java/vn/edu/usth/weather/WeatherAndForecastFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/java/vn/edu/usth/weather/WeatherFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/java/vn/edu/usth/weather/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/java/vn/edu/usth/weather/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/java/vn/edu/usth/weather/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/drawable/icons8clouds100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/drawable/icons8heavyrain100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/drawable/icons8partlycloudyday100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/drawable/icons8rain96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/drawable/icons8snow100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/drawable/icons8storm100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/drawable/icons8sun96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/layout/activity_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/layout/fragment_forecast2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/layout/fragment_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/layout/fragment_weather_and_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/app/src/test/java/vn/edu/usth/weather/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac8/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/.idea/Prac9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/.idea/migrations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/.idea/render.experimental.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/androidTest/java/vn/edu/usth/weather/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/java/vn/edu/usth/weather/ForecastFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/java/vn/edu/usth/weather/HomeFragmentPagerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/java/vn/edu/usth/weather/WeatherActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/java/vn/edu/usth/weather/WeatherAndForecastFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/java/vn/edu/usth/weather/WeatherFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/java/vn/edu/usth/weather/ui/theme/Color.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/java/vn/edu/usth/weather/ui/theme/Theme.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/java/vn/edu/usth/weather/ui/theme/Type.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable-nodpi/th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/_380510_200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/ai_day.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/chat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/girl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/png_clipart_rain_weather_forecasting_overcast_cloud_cloudy_love_cloud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/rain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/rain_computer_icons_symbol_weather_rainy_day.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/sad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/scatterthunder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/thunderstorm_icon_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/weather_91.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/drawable/wow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/layout/activity_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/layout/fragment_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/layout/fragment_weather.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/layout/fragment_weather_and_forecast.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/values-vi/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/app/src/test/java/vn/edu/usth/weather/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Prac9/USTHWeather3/settings.gradle.kts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=D:\Android\.android\avd\Pixel_6_Pro_API_35_4.avd)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="USTH Weather" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="USTH Weather" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="USTH Weather" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="USTH Weather" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2mgofm0bHrEvoSM6Hf5tswfp56a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.app.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/USTH/androiddev2024/USTHWeather3",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  },
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "D:\\Android\\.gradle"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="USTH_Weather.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9fcc383-deb9-4080-835f-788e09b48c36" name="Changes" comment="" />
+      <created>1727507685633</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727507685633</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+</project>
