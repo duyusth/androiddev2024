@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="@dimen/width_fragment"
+        android:layout_height="600px"
+        android:background="#ffffff"
+
+        android:layout_marginLeft="@dimen/framgent_marginLeft">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/frame"/>
+        <TextView
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="100px"
+            android:layout_width="250px"
+            android:layout_height="150px"
+
+            android:layout_alignParentLeft="true"
+            android:text="12 C\nCloudy "
+            android:gravity="center_vertical">
+
+        </TextView>
+        <TextView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_marginTop="50px"
+            android:layout_marginRight="50px"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:text="Hanoi">
+
+        </TextView>
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_width="600px"
+            android:layout_height="300px"
+            android:src="@drawable/clouds"></ImageView>
+
+
+
+    </RelativeLayout>
+</LinearLayout>
