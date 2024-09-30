@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ccffcc"
+    android:padding="16dp" >
+
+    <!-- Nhiệt độ -->
+<TextView
+android:id="@+id/temperature"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="12C"
+android:textSize="32sp"
+android:textColor="#000"
+android:layout_alignParentStart="true"
+android:layout_marginTop="16dp" />
+
+    <!-- Mô tả thời tiết -->
+<TextView
+android:id="@+id/weather_description"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Cloudy"
+android:textSize="18sp"
+android:textColor="#000"
+android:layout_below="@id/temperature"
+android:layout_alignParentStart="true" />
+
+    <!-- Biểu tượng thời tiết -->
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="176dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/rain" />
+
+    <!-- Tên thành phố -->
+<TextView
+android:id="@+id/city_name"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Paris"
+android:textSize="18sp"
+android:textColor="#000"
+android:layout_alignParentEnd="true"
+android:layout_marginTop="16dp" />
+    </RelativeLayout>
