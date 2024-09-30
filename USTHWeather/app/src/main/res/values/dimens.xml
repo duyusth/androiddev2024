@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="text_size_temperature">32sp</dimen>
+    <dimen name="text_size_description">18sp</dimen>
+    <dimen name="text_size_city">18sp</dimen>
+    <dimen name="icon_width">176dp</dimen>
+    <dimen name="icon_height">200dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="margin_top_temperature">16dp</dimen>
+</resources>
