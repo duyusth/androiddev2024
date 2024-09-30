@@ -1,64 +1,74 @@
 package com.example.usthweather;
 
-
-
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentTransaction;
-
-
-import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager2.widget.ViewPager2;
+import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.tabs.TabLayoutMediator;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.fragment.app.FragmentActivity;
+import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class WeatherActivity extends AppCompatActivity {
 
-    private ViewPager viewPager;
+    private ViewPager2 viewPager;
     private ViewPagerAdapter viewPagerAdapter;
+    private TabLayout tabLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
 
-        // Initialize ViewPager
-        viewPager = findViewById(R.id.view_pager);
-        viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
+        // Initialize ViewPager2
+        viewPager = findViewById(R.id.pager);
+        tabLayout = findViewById(R.id.tab);
 
-        // Add 3 WeatherAndForecastFragments to ViewPager
-        for (int i = 0; i < 3; i++) {
-            viewPagerAdapter.addFragment(new WeatherAndForecastFragment());
-        }
+        // Initialize Adapter
+        viewPagerAdapter = new ViewPagerAdapter(this);
+
+        // Add 3 WeatherAndForecastFragments to ViewPager2
+        viewPagerAdapter.addFragment(new WeatherAndForecastFragment(), "HANOI, VIETNAM");
+        viewPagerAdapter.addFragment(new WeatherAndForecastFragment(), "PARIS, FRANCE");
+        viewPagerAdapter.addFragment(new WeatherAndForecastFragment(), "TOULOUSE, FRANCE");
 
         viewPager.setAdapter(viewPagerAdapter);
+
+        // Link TabLayout and ViewPager2
+        new TabLayoutMediator(tabLayout, viewPager,
+                (tab, position) -> tab.setText(viewPagerAdapter.getFragmentTitle(position))
+        ).attach();
     }
 
     // ViewPagerAdapter for managing fragments
-    private class ViewPagerAdapter extends FragmentPagerAdapter {
+    private class ViewPagerAdapter extends FragmentStateAdapter {
         private final List<Fragment> fragmentList = new ArrayList<>();
+        private final List<String> fragmentTitleList = new ArrayList<>();
 
-        public ViewPagerAdapter(androidx.fragment.app.FragmentManager fm) {
-            super(fm, BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+        public ViewPagerAdapter(FragmentActivity fa) {
+            super(fa);
         }
 
-        public void addFragment(Fragment fragment) {
+        public void addFragment(Fragment fragment, String title) {
             fragmentList.add(fragment);
+            fragmentTitleList.add(title);
         }
 
         @Override
-        public Fragment getItem(int position) {
+        public Fragment createFragment(int position) {
             return fragmentList.get(position);
         }
 
         @Override
-        public int getCount() {
+        public int getItemCount() {
             return fragmentList.size();
+        }
+
+        public String getFragmentTitle(int position) {
+            return fragmentTitleList.get(position);
         }
     }
 }
-
