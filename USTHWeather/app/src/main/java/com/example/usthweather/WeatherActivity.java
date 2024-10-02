@@ -1,8 +1,7 @@
 package com.example.usthweather;
 
+import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -23,36 +22,31 @@ public class WeatherActivity extends AppCompatActivity {
     private ViewPager2 viewPager;
     private ViewPagerAdapter viewPagerAdapter;
     private TabLayout tabLayout;
-    private Handler handler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
-
         Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);  // Quan trọng: Thiết lập Toolbar làm ActionBar
-        // Initialize ViewPager2
+        setSupportActionBar(toolbar);
+        // Khởi tạo ViewPager2 và TabLayout
         viewPager = findViewById(R.id.pager);
         tabLayout = findViewById(R.id.tab);
 
-        // Initialize Adapter
+        // Khởi tạo Adapter
         viewPagerAdapter = new ViewPagerAdapter(this);
 
-        // Add 3 WeatherAndForecastFragments to ViewPager2
+        // Thêm 3 WeatherAndForecastFragments vào ViewPager2
         viewPagerAdapter.addFragment(new WeatherAndForecastFragment(), "HANOI, VIETNAM");
         viewPagerAdapter.addFragment(new WeatherAndForecastFragment(), "PARIS, FRANCE");
         viewPagerAdapter.addFragment(new WeatherAndForecastFragment(), "TOULOUSE, FRANCE");
 
         viewPager.setAdapter(viewPagerAdapter);
 
-        // Link TabLayout and ViewPager2
+        // Liên kết TabLayout và ViewPager2
         new TabLayoutMediator(tabLayout, viewPager,
                 (tab, position) -> tab.setText(viewPagerAdapter.getFragmentTitle(position))
         ).attach();
-
-        // Initialize Handler for handling UI updates from a thread
-        handler = new Handler(Looper.getMainLooper());
     }
 
     @Override
@@ -65,25 +59,43 @@ public class WeatherActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int itemId = item.getItemId();
         if (itemId == R.id.refresh) {
-            simulateNetworkRequest();
+            // Gọi AsyncTask để mô phỏng yêu cầu mạng
+            new RefreshDataTask().execute();
             return true;
         }
         return super.onOptionsItemSelected(item);
     }
 
-    // Simulate a network request using Thread and Handler
-    private void simulateNetworkRequest() {
-        new Thread(() -> {
+    // AsyncTask để mô phỏng yêu cầu mạng
+    private class RefreshDataTask extends AsyncTask<Void, Void, Void> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            // Bạn có thể thêm đoạn mã để hiển thị tiến trình trước khi tải dữ liệu
+            Toast.makeText(WeatherActivity.this, "Refreshing data...", Toast.LENGTH_SHORT).show();
+        }
+
+        @Override
+        protected Void doInBackground(Void... voids) {
             try {
+                // Mô phỏng việc tải dữ liệu mất 2 giây
                 Thread.sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            handler.post(() -> Toast.makeText(WeatherActivity.this, "Data refreshed!", Toast.LENGTH_SHORT).show());
-        }).start();
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void aVoid) {
+            super.onPostExecute(aVoid);
+            // Hiển thị thông báo khi dữ liệu đã được làm mới
+            Toast.makeText(WeatherActivity.this, "Data refreshed!", Toast.LENGTH_SHORT).show();
+        }
     }
 
-    // ViewPagerAdapter for managing fragments
+    // ViewPagerAdapter để quản lý các Fragment
     private class ViewPagerAdapter extends FragmentStateAdapter {
         private final List<Fragment> fragmentList = new ArrayList<>();
         private final List<String> fragmentTitleList = new ArrayList<>();
