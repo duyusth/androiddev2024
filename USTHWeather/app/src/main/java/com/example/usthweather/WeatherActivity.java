@@ -1,5 +1,6 @@
 package com.example.usthweather;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
@@ -13,6 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WeatherActivity extends AppCompatActivity {
+    private MediaPlayer mediaPlayer;
 
     private ViewPager2 viewPager;
     private ViewPagerAdapter viewPagerAdapter;
@@ -41,6 +43,19 @@ public class WeatherActivity extends AppCompatActivity {
         new TabLayoutMediator(tabLayout, viewPager,
                 (tab, position) -> tab.setText(viewPagerAdapter.getFragmentTitle(position))
         ).attach();
+
+        mediaPlayer = MediaPlayer.create(this, R.raw.audio1);
+        mediaPlayer.start();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mediaPlayer != null) {
+            mediaPlayer.stop(); //
+            mediaPlayer.release();
+            mediaPlayer = null;
+        }
     }
 
     // ViewPagerAdapter for managing fragments
