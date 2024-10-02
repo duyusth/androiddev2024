@@ -1,13 +1,13 @@
 package com.example.usthweather;
 
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.view.Menu;
 import android.view.MenuItem;
-import androidx.appcompat.widget.Toolbar;
-import android.media.MediaPlayer;
-import android.os.Bundle;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager2.widget.ViewPager2;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
@@ -19,17 +19,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WeatherActivity extends AppCompatActivity {
-    private MediaPlayer mediaPlayer;
 
     private ViewPager2 viewPager;
     private ViewPagerAdapter viewPagerAdapter;
     private TabLayout tabLayout;
+    private Handler handler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
 
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);  // Quan trọng: Thiết lập Toolbar làm ActionBar
         // Initialize ViewPager2
         viewPager = findViewById(R.id.pager);
         tabLayout = findViewById(R.id.tab);
@@ -49,47 +51,37 @@ public class WeatherActivity extends AppCompatActivity {
                 (tab, position) -> tab.setText(viewPagerAdapter.getFragmentTitle(position))
         ).attach();
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.audio1);
-        mediaPlayer.start();
-        Toolbar Toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(Toolbar);
+        // Initialize Handler for handling UI updates from a thread
+        handler = new Handler(Looper.getMainLooper());
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        if (mediaPlayer != null) {
-            mediaPlayer.stop(); //
-            mediaPlayer.release();
-            mediaPlayer = null;
-        }
-    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu, menu);
         return true;
     }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int itemId = item.getItemId();
-
-        if (itemId == R.id.search) {
-            Toast.makeText(this, "Search clicked", Toast.LENGTH_SHORT).show();
-            return true;
-
-        } else if (itemId == R.id.refresh) {
-
-            Toast.makeText(this, "Refresh clicked", Toast.LENGTH_SHORT).show();
-
-            return true;
-
-        } else if (itemId == R.id.setting) {
-
-            Toast.makeText(this, "Settings clicked", Toast.LENGTH_SHORT).show();
-
+        if (itemId == R.id.refresh) {
+            simulateNetworkRequest();
             return true;
         }
+        return super.onOptionsItemSelected(item);
+    }
 
-        return super.onOptionsItemSelected(item);}
+    // Simulate a network request using Thread and Handler
+    private void simulateNetworkRequest() {
+        new Thread(() -> {
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            handler.post(() -> Toast.makeText(WeatherActivity.this, "Data refreshed!", Toast.LENGTH_SHORT).show());
+        }).start();
+    }
 
     // ViewPagerAdapter for managing fragments
     private class ViewPagerAdapter extends FragmentStateAdapter {
