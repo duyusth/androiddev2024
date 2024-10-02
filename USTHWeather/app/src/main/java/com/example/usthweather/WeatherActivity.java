@@ -59,27 +59,23 @@ public class WeatherActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int itemId = item.getItemId();
         if (itemId == R.id.refresh) {
-            // Gọi AsyncTask để mô phỏng yêu cầu mạng
             new RefreshDataTask().execute();
             return true;
         }
         return super.onOptionsItemSelected(item);
     }
 
-    // AsyncTask để mô phỏng yêu cầu mạng
     private class RefreshDataTask extends AsyncTask<Void, Void, Void> {
 
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            // Bạn có thể thêm đoạn mã để hiển thị tiến trình trước khi tải dữ liệu
             Toast.makeText(WeatherActivity.this, "Refreshing data...", Toast.LENGTH_SHORT).show();
         }
 
         @Override
         protected Void doInBackground(Void... voids) {
             try {
-                // Mô phỏng việc tải dữ liệu mất 2 giây
                 Thread.sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
@@ -90,12 +86,10 @@ public class WeatherActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
-            // Hiển thị thông báo khi dữ liệu đã được làm mới
             Toast.makeText(WeatherActivity.this, "Data refreshed!", Toast.LENGTH_SHORT).show();
         }
     }
 
-    // ViewPagerAdapter để quản lý các Fragment
     private class ViewPagerAdapter extends FragmentStateAdapter {
         private final List<Fragment> fragmentList = new ArrayList<>();
         private final List<String> fragmentTitleList = new ArrayList<>();
