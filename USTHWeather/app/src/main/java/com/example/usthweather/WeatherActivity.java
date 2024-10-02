@@ -1,7 +1,12 @@
 package com.example.usthweather;
 
+import android.view.Menu;
+import android.view.MenuItem;
+import androidx.appcompat.widget.Toolbar;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 import com.google.android.material.tabs.TabLayout;
@@ -46,6 +51,8 @@ public class WeatherActivity extends AppCompatActivity {
 
         mediaPlayer = MediaPlayer.create(this, R.raw.audio1);
         mediaPlayer.start();
+        Toolbar Toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(Toolbar);
     }
 
     @Override
@@ -57,6 +64,32 @@ public class WeatherActivity extends AppCompatActivity {
             mediaPlayer = null;
         }
     }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int itemId = item.getItemId();
+
+        if (itemId == R.id.search) {
+            Toast.makeText(this, "Search clicked", Toast.LENGTH_SHORT).show();
+            return true;
+
+        } else if (itemId == R.id.refresh) {
+
+            Toast.makeText(this, "Refresh clicked", Toast.LENGTH_SHORT).show();
+
+            return true;
+
+        } else if (itemId == R.id.setting) {
+
+            Toast.makeText(this, "Settings clicked", Toast.LENGTH_SHORT).show();
+
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);}
 
     // ViewPagerAdapter for managing fragments
     private class ViewPagerAdapter extends FragmentStateAdapter {
