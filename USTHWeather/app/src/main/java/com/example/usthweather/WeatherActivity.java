@@ -1,12 +1,13 @@
 package com.example.usthweather;
 
+import android.media.MediaPlayer;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+import androidx.appcompat.widget.Toolbar;  // Sửa lỗi import đúng Toolbar
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 import androidx.viewpager2.widget.ViewPager2;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
@@ -18,6 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WeatherActivity extends AppCompatActivity {
+    private MediaPlayer mediaPlayer;
 
     private ViewPager2 viewPager;
     private ViewPagerAdapter viewPagerAdapter;
@@ -27,26 +29,37 @@ public class WeatherActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        // Khởi tạo ViewPager2 và TabLayout
+
         viewPager = findViewById(R.id.pager);
         tabLayout = findViewById(R.id.tab);
 
-        // Khởi tạo Adapter
         viewPagerAdapter = new ViewPagerAdapter(this);
 
-        // Thêm 3 WeatherAndForecastFragments vào ViewPager2
         viewPagerAdapter.addFragment(new WeatherAndForecastFragment(), "HANOI, VIETNAM");
         viewPagerAdapter.addFragment(new WeatherAndForecastFragment(), "PARIS, FRANCE");
         viewPagerAdapter.addFragment(new WeatherAndForecastFragment(), "TOULOUSE, FRANCE");
 
+        mediaPlayer = MediaPlayer.create(this, R.raw.audio1);
+        mediaPlayer.start();
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
         viewPager.setAdapter(viewPagerAdapter);
 
-        // Liên kết TabLayout và ViewPager2
         new TabLayoutMediator(tabLayout, viewPager,
                 (tab, position) -> tab.setText(viewPagerAdapter.getFragmentTitle(position))
         ).attach();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mediaPlayer != null) {
+            mediaPlayer.stop();
+            mediaPlayer.release();
+            mediaPlayer = null;
+        }
     }
 
     @Override
